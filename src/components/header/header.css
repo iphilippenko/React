@@ -1,0 +1,30 @@
+.header__wrap {
+    overflow: hidden;
+}
+
+.header {
+    height: 64px;
+    padding: 22px 0;
+    box-sizing: border-box;
+    background-color: #175786;
+}
+
+
+.logo__wrap, .menu__left {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.menu__item {
+    display: inline;
+}
+
+.menu__item a {
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    font-family: OpenSans;
+    font-size: 14px;
+}

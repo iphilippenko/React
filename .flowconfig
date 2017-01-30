@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/.*
+.*/flow-typed/.*
+
+[include]
+
+[libs]
+./flow-typed/npm/
+
+[options]
+unsafe.enable_getters_and_setters=true
+module.system=haste
+module.name_mapper='.*\.\less\|svg\|png\)$' -> 'Stub'

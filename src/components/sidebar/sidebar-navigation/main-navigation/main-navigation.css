@@ -1,0 +1,16 @@
+.main-menu__link {
+    font-family: OpenSans;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #53687e;
+
+}
+
+.main-menu__item {
+    padding-left: 23px;
+    border: solid 1px #D8DDE3;
+    line-height: 3.43;
+}

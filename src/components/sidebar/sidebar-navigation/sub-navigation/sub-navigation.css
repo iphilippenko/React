@@ -1,0 +1,26 @@
+.sub-menu__link {
+    text-decoration: none;
+    letter-spacing: normal;
+    color: #334152;
+}
+
+.sub-menu__item {
+    line-height: 2.29;
+    width: 100%;
+}
+
+.is-active {
+    font-weight: 600;
+    color: #334152;
+    border-left: 5px solid #419BF9;
+}
+
+.is-visited {
+    color: #8c96a3;
+}
+
+.is-completed:after {
+    content: "\f000";
+    font-family: FontAwesome;
+    color: #8C96A3;
+}
