@@ -1,0 +1,13 @@
+.button__secondary {
+    padding: 5px 16px;
+    border-radius: 2px;
+    background-color: #2888d1;
+    border: 1px solid #2888d1;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    cursor: pointer;
+}

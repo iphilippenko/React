@@ -1,0 +1,64 @@
+.office-edit {
+    padding-left: 0;
+}
+
+.form-control {
+    width: 191px;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: solid 1px #d8dde3;
+    background-color: #f7f8fa;
+}
+
+p, label {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.4px;
+    color: #334152;
+}
+
+.form-group {
+    clear:both;
+    text-align:right;
+    margin-bottom: 8px;
+}
+
+.control-label {
+    float:left;
+    margin: 0 13px;
+    line-height: 30px;
+    color: #53687e;
+}
+
+.office-address__edit,
+.office-contacts__edit {
+    float:left
+}
+
+form {
+    overflow: hidden;
+}
+
+.select-option {
+    color: #334152;
+    background: #f7f8fa;
+    border: solid 1px #2477b3;
+}
+
+.select-option:hover {
+    color: #fff;
+    background-color: #2888d1;
+}
+
+.check-box {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.primary-hq__checkbox {
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}

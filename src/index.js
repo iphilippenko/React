@@ -1,13 +1,11 @@
 // @flow
 import React from 'react';
 import {render} from 'react-dom';
-import {Header} from '../src/components/header';
-import {Sidebar} from '../src/components/sidebar';
+import {App} from './app';
 import 'reset.css';
+import './style.css';
+
 render(
-    <div>
-        <Header/>
-        <Sidebar/>
-    </div>,
+    <App/>,
     document.getElementById('root')
 );

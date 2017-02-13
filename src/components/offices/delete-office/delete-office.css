@@ -1,0 +1,87 @@
+p, h4, option {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.4px;
+    color: #334152;
+}
+
+.popup {
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    left: 0;
+}
+
+.popup-content {
+    box-sizing: border-box;
+    z-index: 9999;
+    margin: 200px auto 0 auto;
+    text-align: center;
+    width: 435px;
+    padding: 18px 38px 28px 33px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.24), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    border: solid 1px #adadad;
+}
+
+.removed-why, .modal-title {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.removed-why__notes, .removed-why__notes_label {
+    display: block;
+}
+
+.removed-why__notes, .removed-why__select {
+    width: 360px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #f7f8fa;
+    border: solid 1px #d8dde3;
+}
+
+.removed-why__select option {
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.removed-why__select option:hover {
+    background: blue;
+    color: #fff;
+}
+
+.removed-why__notes {
+    height: 67px;
+}
+
+.cancel {
+    float: left;
+}
+
+.remove {
+    float: right;
+}
+
+.static-modal .button__cancel {
+    float: left;
+}
+
+.static-modal .button__secondary {
+    float: right;
+}
+
+.modal-footer {
+    overflow: hidden;
+}
+
+.removed-why__notes_label {
+    margin: 0;
+}

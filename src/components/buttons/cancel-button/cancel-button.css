@@ -1,0 +1,13 @@
+.button__cancel {
+    padding: 5px 16px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #53687e;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    color: #53687e;
+    cursor: pointer;
+}
