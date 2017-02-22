@@ -1,4 +1,4 @@
-// @flow
+
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {HeaderNav} from '../../src/components/header';
@@ -13,10 +13,14 @@ export class App extends Component {
        return (
             <div>
                 <HeaderNav/>
-                <div className="content">
-                    <Sidebar/>
+                <div className="wrapper">
 
-                    <Offices/>
+                    <div className="content">
+                        <Sidebar/>
+
+                        <Offices/>
+                    </div>
+
                 </div>
             </div>
         )

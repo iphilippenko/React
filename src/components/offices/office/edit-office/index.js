@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import './edit-office.css';
@@ -79,7 +80,7 @@ export class EditOffice extends Component {
 
                         <FormGroup>
                             <ControlLabel>Office Type:</ControlLabel>
-                            <p className="primary-hq__checkbox"><img src="./src/images/check-box.svg" className="check-box"/>Primary HQ</p>
+                            <p className="primary-hq__checkbox"><img src="./src/components/offices/office/office-edit/check-box.svg" className="check-box"/>Primary HQ</p>
                         </FormGroup>
                     </div>
 

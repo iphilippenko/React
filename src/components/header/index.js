@@ -1,3 +1,4 @@
+
 import React , {Component} from 'react';
 import {render} from 'react-dom';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
@@ -8,7 +9,7 @@ export class HeaderNav extends Component {
         return (
             <Navbar  className="header">
                 <Navbar.Brand className="logo__wrap">
-                    <a href="#"><img src="./src/images/s-p-d-u.svg" className="logo__image"/></a>
+                    <a href="#"><img src="./src/components/header/s-p-d-u.svg" className="logo__image"/></a>
                 </Navbar.Brand>
                 <Nav className="menu__left">
                     <NavItem eventKey={1} href="#" className="menu__item">Profile Editor</NavItem>

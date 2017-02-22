@@ -1,3 +1,5 @@
+//@flow
+
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import './office-view.css';
@@ -11,7 +13,7 @@ type Props = {
     primaryHQ?: boolean,
     country: string,
     state: string,
-    postalCode: number,
+    postalCode: string,
     city: string,
     street: string,
     phone: string,
@@ -52,7 +54,7 @@ export class OfficeView extends Component {
 
     getPrimary() {
         if (this.props.primaryHQ) {
-            return <span className="primary-hq"><img src="./src/images/check-mark.svg" className="check-mark check-mark__primary"/>Primary HQ<br/></span>
+            return <span className="primary-hq"><img src="./src/components/offices/office/office-view/check-mark.svg" className="check-mark check-mark__primary"/>Primary HQ<br/></span>
         }
 
         return null;

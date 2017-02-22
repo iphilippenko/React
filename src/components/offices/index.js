@@ -1,4 +1,4 @@
-// @flow
+
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {AboutContent} from '../../../src/components/about-content';
@@ -34,7 +34,7 @@ export class Offices extends Component {
                 <div className="control">
                     <PrimaryButton title="Back"/>
 
-                    <a href="#" className="provide-comments"><img src="./src/images/plus.png" className="provide-comments__plus"/>Provide additional comments</a>
+                    <a href="#" className="provide-comments"><img src="./src/components/offices/plus.png" className="provide-comments__plus"/>Provide additional comments</a>
 
                     <PrimaryButton title="Skip this step"/>
 

@@ -1,7 +1,7 @@
 {
   "scripts": {
     "flow-typed": "flow-typed install",
-    "build": "rimraf build && flow &&  webpack --config config/webpack.config.js",
+    "build": "rimraf build && flow  &&  webpack --config config/webpack.config.js",
     "start": "webpack-dev-server --inline --hot --config config/webpack.config.js"
   },
   "devDependencies": {
